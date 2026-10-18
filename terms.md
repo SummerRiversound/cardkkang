@@ -12,11 +12,11 @@
 
 ### 팩 확률
 
-팩에서 나오는 카드는 무작위로 정해집니다. 모든 팩의 확률은 게임 안(상점, 광고 보상 화면, 모이통, 팩 화면의 확률 보기)과 확률 페이지(<https://summerriversound.github.io/cardkkang/odds/>)에 공개합니다. 확률을 바꾸면 두 곳을 함께 고칩니다.
+팩에서 나오는 카드는 무작위로 정해집니다. 모든 팩의 확률은 게임 안(상점의 이용권 탭과 모이통 탭, 팩 화면의 확률 보기)과 확률 페이지(<https://summerriversound.github.io/cardkkang/odds/>)에 공개합니다. 확률을 바꾸면 두 곳을 함께 고칩니다.
 
 ### 구매
 
-지금 버전의 '광고 보기'와 무제한 이용권 구매는 시험용이라 실제 광고나 결제가 아닙니다. 실제 구매가 생기면 결제와 환불은 Apple이 App Store에서 처리하며, Apple의 약관과 환불 정책을 따릅니다. 무제한 이용권은 산 Apple 계정으로 상점의 '구매 복원'을 눌러 다시 받을 수 있습니다.
+지금 버전의 '광고 보고 1팩 열기'와 무제한 이용권 구매는 시험용이라 실제 광고나 결제가 아닙니다. 실제 구매가 생기면 결제와 환불은 Apple이 App Store에서 처리하며, Apple의 약관과 환불 정책을 따릅니다. 무제한 이용권은 산 Apple 계정으로 상점의 '구매 복원'을 눌러 다시 받을 수 있습니다.
 
 ### 게임 기록
 
@@ -54,11 +54,11 @@ The cards in the game are digital collectibles showing pictures and facts about 
 
 ### Pack odds
 
-The cards in a pack are drawn at random. The odds of every pack are shown in the game (the shop, the ad reward screen, the Feeder and View Odds on the pack screens) and on the odds page (in Korean) at <https://summerriversound.github.io/cardkkang/odds/>. When the odds change, both are updated together.
+The cards in a pack are drawn at random. The odds of every pack are shown in the game (the shop's Pass and Feeder tabs, and View Odds on the pack screens) and on the odds page (in Korean) at <https://summerriversound.github.io/cardkkang/odds/>. When the odds change, both are updated together.
 
 ### Purchases
 
-In this version, Watch Ad and buying the Unlimited Pass are tests, not real ads or payments. Once real purchases exist, Apple handles payment and refunds on the App Store under Apple's terms and refund policy. You can get the Unlimited Pass back with Restore Purchases in the shop, signed in to the Apple Account that bought it.
+In this version, Watch an Ad for 1 Pack and buying the Unlimited Pass are tests, not real ads or payments. Once real purchases exist, Apple handles payment and refunds on the App Store under Apple's terms and refund policy. You can get the Unlimited Pass back with Restore Purchases in the shop, signed in to the Apple Account that bought it.
 
 ### Your game records
 
@@ -96,11 +96,11 @@ summer.riversound@gmail.com
 
 ### パックの確率
 
-パックから出るカードはランダムに決まります。すべてのパックの確率は、ゲーム内（ショップ、広告報酬の画面、エサ台、パック画面の「確率を見る」）と確率ページ（韓国語、<https://summerriversound.github.io/cardkkang/odds/>）で公開しています。確率を変えるときは両方を一緒に更新します。
+パックから出るカードはランダムに決まります。すべてのパックの確率は、ゲーム内（ショップのパスとエサ台のタブ、パック画面の「確率を見る」）と確率ページ（韓国語、<https://summerriversound.github.io/cardkkang/odds/>）で公開しています。確率を変えるときは両方を一緒に更新します。
 
 ### 購入
 
-このバージョンの「広告を見る」と無制限パスの購入はテスト用で、本物の広告や決済ではありません。実際の購入ができるようになった後は、決済と返金はAppleがApp Storeで処理し、Appleの規約と返金ポリシーに従います。無制限パスは、購入したApple Accountでショップの「購入を復元」を押すと取り戻せます。
+このバージョンの「広告を見て1パック開封」と無制限パスの購入はテスト用で、本物の広告や決済ではありません。実際の購入ができるようになった後は、決済と返金はAppleがApp Storeで処理し、Appleの規約と返金ポリシーに従います。無制限パスは、購入したApple Accountでショップの「購入を復元」を押すと取り戻せます。
 
 ### ゲームの記録
 

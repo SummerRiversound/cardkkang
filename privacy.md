@@ -22,9 +22,9 @@
 
 계정 가입이 없습니다. 광고 SDK, 광고 식별자, 분석 SDK, 크래시 리포팅 SDK를 쓰지 않습니다. 추적하지 않으며, 데이터를 판매하지 않습니다.
 
-### 광고 보기와 결제
+### 광고와 결제
 
-지금 버전의 상점은 시험용입니다. '광고 보기'는 실제 광고를 불러오지 않고, 무제한 이용권 구매와 구매 복원은 실제 결제나 Apple 계정에 연결되지 않으며 돈이 나가지 않습니다.
+지금 버전의 광고와 상점은 시험용입니다. 팩 고르기의 '광고 보고 1팩 열기'는 실제 광고를 불러오지 않고, 무제한 이용권 구매와 구매 복원은 실제 결제나 Apple 계정에 연결되지 않으며 돈이 나가지 않습니다.
 
 ### 데이터 보관과 삭제
 
@@ -66,7 +66,7 @@ There is no sign-up. The game contains no ad SDK, no advertising identifier, no 
 
 ### Ads and purchases
 
-The shop in this version is a test. Watch Ad shows no real ad, and buying or restoring the Unlimited Pass connects to no real payment or Apple Account and charges no money.
+Ads and the shop in this version are tests. Watch an Ad for 1 Pack on pack select shows no real ad, and buying or restoring the Unlimited Pass connects to no real payment or Apple Account and charges no money.
 
 ### Retention and deletion
 
@@ -108,7 +108,7 @@ summer.riversound@gmail.com
 
 ### 広告と購入
 
-このバージョンのショップはテスト用です。「広告を見る」は本物の広告を読み込まず、無制限パスの購入と購入の復元は実際の決済やApple Accountに接続せず、お金はかかりません。
+このバージョンの広告とショップはテスト用です。パック選択の「広告を見て1パック開封」は本物の広告を読み込まず、無制限パスの購入と購入の復元は実際の決済やApple Accountに接続せず、お金はかかりません。
 
 ### データの保存と削除
 
