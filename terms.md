@@ -16,7 +16,7 @@
 
 ### 무제한 이용권
 
-무제한 이용권은 실제 돈을 내고 사는 상품입니다. 한 번 사면 모든 권역의 팩을 1개 또는 10개씩 제한 없이 열 수 있고, 따로 기간이 없어 게임이 제공되는 동안 계속 쓸 수 있습니다. 가격은 결제 전에 상점과 App Store 결제 화면에 표시되며(대한민국에서는 3,300원, 부가세 포함), 다른 나라에서는 Apple이 정한 그 나라의 가격입니다. 결제는 App Store에서 Apple이 처리하며 Apple의 약관을 따릅니다. 이용권은 산 Apple 계정에 묶이며, 같은 계정으로 로그인한 기기에서 상점의 '구매 복원'을 누르면 다시 받을 수 있습니다.
+무제한 이용권은 실제 돈을 내고 사는 상품입니다. 한 번 사면 모든 권역의 팩을 1개 또는 10개씩 제한 없이 열 수 있고, 따로 기간이 없어 게임이 제공되는 동안 계속 쓸 수 있습니다. 가격은 결제 전에 상점과 App Store 결제 화면에 표시되며(대한민국에서는 6,600원, 부가세 포함), 다른 나라에서는 Apple이 정한 그 나라의 가격입니다. 결제는 App Store에서 Apple이 처리하며 Apple의 약관을 따릅니다. 이용권은 산 Apple 계정에 묶이며, 같은 계정으로 로그인한 기기에서 상점의 '구매 복원'을 누르면 다시 받을 수 있습니다.
 
 ### 구매 취소(청약철회)와 환불
 
@@ -70,7 +70,7 @@ The cards in a pack are drawn at random. The odds of every pack are shown in the
 
 ### The Unlimited Pass
 
-The Unlimited Pass is bought with real money. Once bought, it lets you open packs of every region 1 or 10 at a time without limit, and it has no expiry: it lasts as long as the game is provided. The price is shown in the shop and on the App Store payment sheet before you pay (₩3,300 in South Korea, tax included); elsewhere it is the local price Apple sets. Apple handles payment on the App Store under Apple's terms. The pass belongs to the Apple Account that bought it: on any device signed in to that account, tap Restore Purchases in the shop to get it back.
+The Unlimited Pass is bought with real money. Once bought, it lets you open packs of every region 1 or 10 at a time without limit, and it has no expiry: it lasts as long as the game is provided. The price is shown in the shop and on the App Store payment sheet before you pay (₩6,600 in South Korea, tax included); elsewhere it is the local price Apple sets. Apple handles payment on the App Store under Apple's terms. The pass belongs to the Apple Account that bought it: on any device signed in to that account, tap Restore Purchases in the shop to get it back.
 
 ### Cancellations and refunds
 
