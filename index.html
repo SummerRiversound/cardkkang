@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>카드깡 시뮬레이터 · TCG Pack Simulator</title>
+<meta name="description" content="진짜 새 781종이 들어 있는 카드 팩을 흔들고, 불고, 찢어서 여는 iPhone 게임. Tear open card packs of 781 real bird species.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="카드깡 시뮬레이터 · TCG Pack Simulator">
+<meta property="og:description" content="진짜 새가 들어 있는 카드 팩. 지금 사이트에서 한 팩 뜯어 보세요.">
+<meta property="og:image" content="img/og.png">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#fcf8ee">
+<link rel="icon" href="img/icon.png">
+<link rel="apple-touch-icon" href="img/icon.png">
+<link rel="stylesheet" href="site.css">
+<style>
+.stage .cover { position: absolute; inset: 0; background: center/cover no-repeat; image-rendering: pixelated; }
+.stage .cover::after { content: ""; position: absolute; inset: 0; background: linear-gradient(rgba(26,28,23,.15), rgba(26,28,23,0) 30%, rgba(26,28,23,.55)); }
+.stage .title { position: absolute; left: 50%; top: 4%; width: 46%; transform: translateX(-50%); image-rendering: pixelated; filter: drop-shadow(0 3px 0 rgba(26,28,23,.5)); pointer-events: none; transition: opacity .3s; }
+.pack { position: absolute; left: 50%; top: 52%; width: 56%; max-width: 300px; aspect-ratio: 5/8; transform: translate(-50%, -50%); transition: transform .6s var(--bounce), opacity .4s; }
+.pack .body, .pack .flap { position: absolute; left: 0; right: 0; background: linear-gradient(115deg, #b9c2c9, #eef2f4 22%, #9aa5ae 40%, #e2e7ea 58%, #8f9aa3 78%, #d5dbdf); border: 2px solid var(--ink); }
+.pack .body { top: 12%; bottom: 0; }
+.pack .flap { top: 0; height: 13%; transform-origin: 0 100%; transition: transform .7s cubic-bezier(.2,.8,.3,1.2), opacity .7s; }
+.pack .flap::after, .pack .body::after { content: ""; position: absolute; left: 0; right: 0; height: 8px; background: repeating-linear-gradient(90deg, rgba(26,28,23,.25) 0 2px, transparent 2px 5px); }
+.pack .flap::after { top: 3px; } .pack .body::after { bottom: 3px; }
+.pack .label { position: absolute; left: 9%; right: 9%; top: 9%; padding: 0; overflow: hidden; }
+.pack .label .band { margin: 0; padding: 3px 8px; font-size: 12px; }
+.pack .label .pic { display: block; width: 100%; aspect-ratio: 424/480; background: center/cover no-repeat; image-rendering: pixelated; transition: background-image .3s; }
+.pack .label .cap { font-size: 11px; padding: 3px 8px; text-align: center; }
+.pack .tear { position: absolute; left: 0; top: 12%; height: 3px; width: 0; background: repeating-linear-gradient(90deg, var(--cream) 0 4px, var(--ink) 4px 6px); z-index: 2; }
+.row { position: absolute; left: 4%; right: 4%; top: 32%; display: grid; grid-template-columns: repeat(5, 1fr); gap: 5px; perspective: 700px; transition: top .5s var(--bounce), transform .5s var(--bounce); }
+.showcase { position: absolute; left: 50%; top: 44%; width: 52%; max-width: 240px; transform: translate(-50%, -50%); perspective: 900px; }
+.showcase .card { width: 100%; }
+.stage .hint { left: 16px; right: 16px; width: fit-content; margin: 0 auto; padding: 4px 10px; background: rgba(26,28,23,.6); }
+.stage .auto { position: absolute; right: 12px; bottom: 12px; }
+.story .layer { transition: opacity .4s; }
+.story .pack { top: 56%; width: min(46%, 240px); }
+.story .row { top: auto; bottom: 18%; left: 50%; right: auto; width: min(92%, 520px); transform: translateX(-50%); }
+.story .lander { position: absolute; width: clamp(40px, 8vw, 80px); }
+</style>
+</head>
+<body>
+<header class="bar">
+  <a class="me" href="#hero"><img class="pix" src="img/icon.png" alt=""><span data-t="name"></span></a>
+  <span class="gap"></span>
+  <div class="langs" role="group" aria-label="Language"></div>
+  <div class="stores" data-stores="bar"></div>
+</header>
+
+<section class="hero" id="hero">
+  <nav class="icons desk">
+    <button class="ico" type="button" data-open="w-about"><span class="pic"><img class="pix" src="img/icon.png" alt=""></span><span data-t="wAbout"></span></button>
+    <button class="ico" type="button" data-open="w-pulls"><span class="pic"><img class="pix" id="pullsIcon" src="birds/passer-montanus.png" alt=""></span><span data-t="wPulls"></span></button>
+    <a class="ico" href="odds/"><span class="pic"><b>%</b></span><span data-t="wOdds"></span></a>
+    <button class="ico" type="button" data-open="w-other"><span class="pic"><img class="pix" src="img/other.png" alt=""></span><span data-t="other"></span></button>
+    <button class="ico" type="button" data-open="w-legal"><span class="pic"><b>?</b></span><span data-t="wLegal"></span></button>
+  </nav>
+
+  <div class="win dwin desk" id="w-about" style="right:40px;top:36px">
+    <div class="band"><span data-t="wAboutTitle"></span><button type="button" data-t-label="close">×</button></div>
+    <ul><li data-t="f1"></li><li data-t="f2"></li><li data-t="f3"></li><li data-t="f4"></li></ul>
+    <div class="stores" data-stores="desk" style="display:flex;flex-wrap:wrap;gap:6px;margin-top:12px"></div>
+  </div>
+  <div class="win dwin desk" id="w-pulls" style="right:60px;bottom:64px" hidden>
+    <div class="band"><span data-t="wPulls"></span><button type="button" data-t-label="close">×</button></div>
+    <div class="mini" id="pulls"></div>
+    <p id="pullsEmpty" data-t="pullsEmpty" style="margin-top:8px"></p>
+  </div>
+  <div class="win dwin desk" id="w-other" style="left:140px;bottom:64px" hidden>
+    <div class="band"><span data-t="other"></span><button type="button" data-t-label="close">×</button></div>
+    <a class="bridge" style="border:0;padding:0" data-other><img class="pix" src="img/other.png" alt=""><span><span data-t="otherWhat"></span><br><b data-t="otherGo"></b></span></a>
+  </div>
+  <div class="win dwin desk" id="w-legal" style="left:140px;top:300px" hidden>
+    <div class="band"><span data-t="wLegal"></span><button type="button" data-t-label="close">×</button></div>
+    <ul><li><a href="privacy.html" data-t="privacy"></a></li><li><a href="terms.html" data-t="terms"></a></li><li><a href="support.html" data-t="support"></a></li><li><a href="odds/" data-t="wOdds"></a></li></ul>
+  </div>
+
+  <div class="win main">
+    <div class="band"><span data-t="name"></span><span data-t="packTab"></span></div>
+    <div class="stage" id="stage">
+      <div class="cover"></div>
+      <img class="title" alt="">
+      <div class="pack">
+        <div class="body"><div class="win label"><div class="band"><span class="realm"></span><span data-t="pack"></span></div><div class="pic"></div><div class="cap" data-t="fiveCards"></div></div></div>
+        <div class="flap"></div><div class="tear"></div>
+      </div>
+      <div class="row" hidden></div>
+      <div class="showcase" hidden></div>
+      <p class="hint" style="bottom:72px" data-t="tearHint"></p>
+      <button class="btn ghost small auto" type="button" data-t="auto"></button>
+      <div class="toast" role="status"></div>
+      <div class="win result">
+        <div class="band"><span class="got"></span><button class="btn ghost small again" type="button" data-t="again" style="min-height:28px;padding:0 8px"></button></div>
+        <p class="lead" data-t="resultBody"></p>
+        <div class="stores" data-stores="hero"></div>
+        <a class="bridge" data-other><img class="pix" src="img/other.png" alt=""><span><span data-t="otherWhat"></span><br><b data-t="otherGo"></b></span></a>
+      </div>
+    </div>
+  </div>
+  <div class="taskbar desk"><span data-t="name"></span><span data-t="deskHint"></span></div>
+</section>
+
+<section class="story" id="story" aria-label="">
+  <div class="scene">
+    <div class="layer" id="l1"></div><div class="layer" id="l2" style="opacity:0"></div>
+    <div class="win cap"><div class="step"></div><h2></h2><p></p></div>
+    <div class="actors"></div>
+    <div class="win end">
+      <div class="band"><span data-t="name"></span><span data-t="iphone"></span></div>
+      <p class="lead" data-t="endBody" style="font-size:14px"></p>
+      <div class="stores" data-stores="story" style="display:flex;flex-wrap:wrap;gap:8px"></div>
+      <a class="bridge" data-other><img class="pix" src="img/other.png" alt=""><span><span data-t="otherWhat"></span><br><b data-t="otherGo"></b></span></a>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="in">
+    <a class="win other bridge" data-other style="border-top:2px solid var(--ink)"><img class="pix" src="img/other.png" alt=""><span><span data-t="otherWhat"></span><br><b data-t="otherGo"></b></span></a>
+    <nav><a href="odds/" data-t="wOdds"></a><a href="privacy.html" data-t="privacy"></a><a href="terms.html" data-t="terms"></a><a href="support.html" data-t="support"></a></nav>
+    <small data-t="credits"></small>
+  </div>
+</footer>
+
+<script src="links.js"></script>
+<script src="site.js"></script>
+<script src="data.js"></script>
+<script src="page.js"></script>
+</body>
+</html>
