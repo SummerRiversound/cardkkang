@@ -53,7 +53,7 @@ Google은 이 정보를 광고 보여 주기와 성과 측정, 부정 클릭 막
 
 ### 마이크
 
-'마이크로 바람 불기'는 선택 기능이며 처음에는 꺼져 있습니다. 켜면 iOS가 마이크 권한을 묻고, 팩을 들고 있거나 초원 화면이 앞에 있을 때만 소리를 듣습니다. 입김의 세기는 기기 안에서 바로 계산해 팩과 새를 움직이는 데만 쓰며, 소리를 녹음하거나 저장하거나 기기 밖으로 보내지 않습니다. 광고가 나오는 동안에는 듣지 않습니다. 게임 설정에서 언제든 끌 수 있습니다.
+'마이크로 바람 불기'는 선택 기능이며 처음에는 꺼져 있습니다. 켜면 iOS가 마이크 권한을 묻고, 초원 화면이 앞에 있을 때만 소리를 듣습니다. 입김의 세기는 기기 안에서 바로 계산해 새를 날려 보내는 데만 쓰며, 소리를 녹음하거나 저장하거나 기기 밖으로 보내지 않습니다. 광고가 나오는 동안에는 듣지 않습니다. 게임 설정에서 언제든 끌 수 있습니다.
 
 ### 그림 공유
 
@@ -169,7 +169,7 @@ Apple handles payment for the Unlimited Pass on the App Store. Only Apple handle
 
 ### Microphone
 
-Blow with Mic is optional and starts off. When you turn it on, iOS asks for microphone access, and the game listens only while you hold a pack or the meadow is on screen. How hard you blow is worked out on your device and used only to move the pack and the birds; no sound is recorded, saved or sent anywhere. It does not listen while an ad is playing. You can turn it off in the game's settings at any time.
+Blow with Mic is optional and starts off. When you turn it on, iOS asks for microphone access, and the game listens only while the meadow is on screen. How hard you blow is worked out on your device and used only to make the birds take off; no sound is recorded, saved or sent anywhere. It does not listen while an ad is playing. You can turn it off in the game's settings at any time.
 
 ### Sharing a picture
 
@@ -280,7 +280,7 @@ Googleはこれらの情報を、広告の表示と効果測定、不正の防�
 
 ### マイク
 
-「マイクで風を吹く」は任意の機能で、最初はオフです。オンにするとiOSがマイクの許可を求め、パックを手に持っているときか草原の画面が表示されているときだけ音を聞きます。息の強さは端末の中ですぐに計算し、パックと鳥を動かすことだけに使います。音を録音・保存したり、端末の外へ送ったりすることはありません。広告の再生中は音を聞きません。ゲームの設定でいつでもオフにできます。
+「マイクで風を吹く」は任意の機能で、最初はオフです。オンにするとiOSがマイクの許可を求め、草原の画面が表示されているときだけ音を聞きます。息の強さは端末の中ですぐに計算し、鳥を飛び立たせることだけに使います。音を録音・保存したり、端末の外へ送ったりすることはありません。広告の再生中は音を聞きません。ゲームの設定でいつでもオフにできます。
 
 ### 画像の共有
 
