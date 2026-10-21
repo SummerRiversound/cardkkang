@@ -2,7 +2,7 @@
 
 ## 한국어
 
-시행일: 2026-10-19
+시행일: 2026-10-22
 
 **카드깡 시뮬레이터에는 회원 가입이 없고, 개발자가 운영하는 서버도 없습니다.** 게임 기록은 이용자의 기기와 본인의 iCloud에만 저장됩니다. 다만 보상형 광고를 보여 주는 Google과 결제를 처리하는 Apple은 아래와 같이 정보를 처리합니다.
 
@@ -14,6 +14,8 @@
 - 결제: 무제한 이용권은 Apple이 App Store에서 결제를 처리합니다. 개발자는 결제 정보를 받지 않습니다.
 - 마이크: 입김의 세기만 기기 안에서 계산하고, 소리를 녹음하거나 내보내지 않습니다.
 - 나이: Apple이 알려 주는 연령대만 기기에 저장하고, 광고를 제한하는 데만 씁니다.
+- 매일 알림: 켠 경우에만 기기 안에서 알림을 예약하고, 아무것도 내보내지 않습니다.
+- Game Center: 로그인한 경우 업적 달성 정도를 Apple의 Game Center에 기록합니다. 개발자는 받지 않습니다.
 
 ### 기기에 저장하는 것
 
@@ -55,6 +57,14 @@ Google은 이 정보를 광고 보여 주기와 성과 측정, 부정 클릭 막
 
 '마이크로 바람 불기'는 선택 기능이며 처음에는 꺼져 있습니다. 켜면 iOS가 마이크 권한을 묻고, 초원 화면이 앞에 있을 때만 소리를 듣습니다. 입김의 세기는 기기 안에서 바로 계산해 새를 날려 보내는 데만 쓰며, 소리를 녹음하거나 저장하거나 기기 밖으로 보내지 않습니다. 광고가 나오는 동안에는 듣지 않습니다. 게임 설정에서 언제든 끌 수 있습니다.
 
+### 매일 알림
+
+'매일 알림'은 선택 기능이며 처음에는 꺼져 있습니다. 켜면 iOS가 알림 권한을 묻고, 허용하면 이용자가 고른 시각(8시, 12시, 19시 중 하나)에 하루 한 번 그날의 새와 오늘의 팩을 알려 줍니다. 알림은 게임이 기기 안에서 미리 예약하며, 내용은 게임에 들어 있는 오늘의 새 일정으로 만들기 때문에 서버도 쓰지 않고 아무 정보도 기기 밖으로 보내지 않습니다. 앱을 열지 않은 채 3일이 지나면 더 오지 않습니다. 게임 설정이나 iPhone 설정 → 알림에서 언제든 끌 수 있습니다.
+
+### Game Center
+
+iPhone이 Game Center에 로그인되어 있으면 게임은 도감 완성 도장, 여덟 권역 정원, 연속 기록 같은 업적의 달성 정도를 Apple의 Game Center에 기록해, Game Center와 게임 앱에서 볼 수 있게 합니다. 업적은 Apple이 이용자의 Game Center 계정에 보관하며, 개발자는 이용자 개인의 업적이나 계정 정보를 받지 않습니다. 순위표는 없습니다. 로그인하지 않아도 게임은 그대로 즐길 수 있고, 로그인은 기록 화면의 Game Center 버튼에서만 권합니다. iPhone 설정 → Game Center에서 로그아웃하거나 친구에게 보이는 정보를 바꿀 수 있습니다. Apple의 처리 방식은 Apple 개인정보 처리방침에 있습니다.
+
 ### 그림 공유
 
 게임 속 그림을 공유하기로 고르면 그 그림만 iOS 공유 화면에 넘깁니다. 어디로 보낼지, 사진 보관함에 저장할지는 이용자가 정합니다. 게임은 사진 보관함의 사진을 읽지 않습니다.
@@ -79,6 +89,8 @@ Google은 이 정보를 광고 보여 주기와 성과 측정, 부정 클릭 막
 
 - 기기의 게임 기록과 연령대: 앱을 지울 때까지 보관하고, 앱을 지우면 함께 지워집니다.
 - iCloud 백업: 이용자의 iCloud에 남으며, Apple 계정과 iCloud의 데이터 관리 기능으로 지울 수 있습니다.
+- 예약된 알림: 매일 알림을 끄거나 앱을 지우면 함께 지워집니다.
+- Game Center 업적: 이용자의 Game Center 계정에 남으며, Apple의 방침에 따릅니다.
 - Google이 수집한 정보: Google의 개인정보처리방침에 따릅니다.
 - 문의 메일: 답변을 마치면 지체 없이 지웁니다. 다만 법이 보관을 요구하는 경우(전자상거래법상 소비자 불만·분쟁 처리 기록 3년)에는 그 기간 동안 보관한 뒤 지웁니다.
 
@@ -118,7 +130,7 @@ summer.riversound@gmail.com
 
 ## English
 
-Effective: 2026-10-19
+Effective: 2026-10-22
 
 **TCG Pack Simulator has no sign-up, and the developer runs no servers.** Your game records stay on your device and in your own iCloud. Google, which shows the rewarded ads, and Apple, which handles payment, process information as described below.
 
@@ -130,6 +142,8 @@ Effective: 2026-10-19
 - Payment: Apple handles payment for the Unlimited Pass on the App Store. The developer never receives payment details.
 - Microphone: only how hard you blow is worked out on your device; no sound is recorded or sent.
 - Age: only the age range Apple shares is stored on your device, and it is used only to limit ads.
+- Daily reminder: only if you turn it on, notifications are scheduled on your device; nothing is sent.
+- Game Center: if you are signed in, your achievement progress is recorded in Apple's Game Center. The developer never receives it.
 
 ### What stays on your device
 
@@ -171,6 +185,14 @@ Apple handles payment for the Unlimited Pass on the App Store. Only Apple handle
 
 Blow with Mic is optional and starts off. When you turn it on, iOS asks for microphone access, and the game listens only while the meadow is on screen. How hard you blow is worked out on your device and used only to make the birds take off; no sound is recorded, saved or sent anywhere. It does not listen while an ad is playing. You can turn it off in the game's settings at any time.
 
+### Daily reminder
+
+The daily reminder is optional and starts off. When you turn it on, iOS asks for permission to send notifications; if you allow it, once a day at the hour you pick (8 AM, noon or 7 PM) it tells you that day's bird and your daily packs. The game schedules these notifications on your device ahead of time and writes them from the day's-bird schedule built into the game, so no server is used and nothing leaves your device. After 3 days without opening the app, they stop. You can turn it off in the game's settings or in iPhone Settings → Notifications at any time.
+
+### Game Center
+
+If your iPhone is signed in to Game Center, the game records your progress on achievements such as completed dex stamps, the eight-realm garden and your streak in Apple's Game Center, so you can see them in Game Center and the Games app. Apple keeps them in your Game Center account; the developer never receives your own achievements or account details. There are no leaderboards. You can play the whole game without signing in, and the game suggests signing in only from the Game Center button on the records screen. You can sign out or change what friends see in iPhone Settings → Game Center. How Apple handles your data: Apple's Privacy Policy.
+
 ### Sharing a picture
 
 When you choose to share a picture from the game, only that picture is handed to the iOS share sheet. You decide where it goes and whether it is saved to your photo library. The game never reads the photos in your library.
@@ -195,6 +217,8 @@ For ads, the information in "Ads" above is transferred abroad as follows.
 
 - Game records and age range on your device: kept until you delete the app, which deletes them.
 - iCloud backup: stays in your iCloud, and can be deleted with your Apple Account's iCloud data management.
+- Scheduled reminders: deleted when you turn the daily reminder off or delete the app.
+- Game Center achievements: stay in your Game Center account, under Apple's policy.
 - Information Google collects: kept under Google's Privacy Policy.
 - Emails: deleted without delay once answered, except where the law requires keeping them (Korean e-commerce law keeps consumer complaint records for 3 years), after which they are deleted.
 
@@ -229,7 +253,7 @@ summer.riversound@gmail.com
 
 ## 日本語
 
-施行日: 2026-10-19
+施行日: 2026-10-22
 
 **神引きシミュレーターにはアカウント登録がなく、開発者が運営するサーバーもありません。** ゲームの記録は利用者の端末と本人のiCloudにだけ保存されます。ただし、リワード広告を表示するGoogleと、決済を処理するAppleは、以下のとおり情報を取り扱います。
 
@@ -241,6 +265,8 @@ summer.riversound@gmail.com
 - 決済: 無制限パスの決済はAppleがApp Storeで処理します。開発者は決済情報を受け取りません。
 - マイク: 息の強さだけを端末の中で計算し、音を録音したり送ったりしません。
 - 年齢: Appleが知らせる年齢層だけを端末に保存し、広告を制限するためだけに使います。
+- 毎日のお知らせ: オンにした場合だけ端末の中で通知を登録し、何も外へ送りません。
+- Game Center: サインインしている場合、実績の達成度をAppleのGame Centerに記録します。開発者は受け取りません。
 
 ### 端末に保存するもの
 
@@ -282,6 +308,14 @@ Googleはこれらの情報を、広告の表示と効果測定、不正の防�
 
 「マイクで風を吹く」は任意の機能で、最初はオフです。オンにするとiOSがマイクの許可を求め、草原の画面が表示されているときだけ音を聞きます。息の強さは端末の中ですぐに計算し、鳥を飛び立たせることだけに使います。音を録音・保存したり、端末の外へ送ったりすることはありません。広告の再生中は音を聞きません。ゲームの設定でいつでもオフにできます。
 
+### 毎日のお知らせ
+
+「毎日のお知らせ」は任意の機能で、最初はオフです。オンにするとiOSが通知の許可を求め、許可すると、選んだ時刻（8時、12時、19時のいずれか）に1日1回、その日の鳥と今日のパックをお知らせします。通知はゲームが端末の中で前もって登録し、内容はゲームに入っている今日の鳥のスケジュールから作るため、サーバーは使わず、どんな情報も端末の外へ送りません。アプリを開かないまま3日たつと届かなくなります。ゲームの設定、またはiPhoneの設定 → 通知で、いつでもオフにできます。
+
+### Game Center
+
+iPhoneがGame Centerにサインインしている場合、ゲームは図鑑完成のスタンプ、八地域の庭、連続記録などの実績の達成度をAppleのGame Centerに記録し、Game CenterとゲームAppで見られるようにします。実績はAppleが利用者のGame Centerアカウントに保管し、開発者は利用者個人の実績やアカウントの情報を受け取りません。ランキングはありません。サインインしなくてもゲームはそのまま楽しめ、サインインは記録画面のGame Centerボタンからだけご案内します。iPhoneの設定 → Game Centerで、サインアウトしたり、フレンドに見える情報を変えたりできます。Appleによる取り扱いは、Appleのプライバシーポリシーをご覧ください。
+
 ### 画像の共有
 
 ゲームの画像を共有することを選ぶと、その画像だけをiOSの共有画面に渡します。どこへ送るか、写真ライブラリに保存するかは利用者が決めます。ゲームが写真ライブラリの写真を読み取ることはありません。
@@ -308,6 +342,8 @@ Googleはこれらの情報を、広告の表示と効果測定、不正の防�
 
 - 端末のゲームの記録と年齢層: アプリを削除するまで保存し、削除すると一緒に消えます。
 - iCloudバックアップ: 利用者のiCloudに残り、Apple AccountのiCloudのデータ管理で削除できます。
+- 登録した通知: 毎日のお知らせをオフにするか、アプリを削除すると一緒に消えます。
+- Game Centerの実績: 利用者のGame Centerアカウントに残り、Appleのポリシーに従います。
 - Googleが収集した情報: Googleのプライバシーポリシーに従います。
 - お問い合わせメール: 返信が終わったら遅滞なく削除します。ただし法律が保存を求める場合（韓国の電子商取引法による苦情・紛争処理の記録は3年）は、その期間保存した後に削除します。
 
