@@ -10,7 +10,7 @@
       other: "새찍도감", otherWhat: "이 새들, 밖에서 진짜로 찍어 볼까요?", otherGo: "새찍도감 보러 가기 →",
       wAbout: "소개", wAboutTitle: "카드깡 시뮬레이터는?", wPulls: "뽑은 카드", wOdds: "팩 확률", wLegal: "도움말", close: "닫기",
       pullsEmpty: "아직 뜯은 팩이 없어요. 가운데 팩을 뜯어 보세요.",
-      f1: "진짜 새 781종이 카드가 됐어요.", f2: "팩은 흔들고, 바람을 불고, 찢어서 열어요.", f3: "뽑은 새는 HD-2D 초원을 돌아다녀요.", f4: "매일 오늘의 새가 찾아오고 2팩을 받아요.",
+      f1: "진짜 새 781종이 카드가 됐어요.", f2: "팩은 흔들고, 기울이고, 찢어서 열어요.", f3: "뽑은 새는 HD-2D 초원을 돌아다녀요.", f4: "매일 오늘의 새가 찾아오고 2팩을 받아요.",
       deskHint: "아이콘을 눌러 보세요 · 창은 띠를 잡고 끌어요",
       s1h: "진짜 새 781종이 카드가 됐어요", s1p: "참새부터 두루미까지, 실제로 사는 새들이에요.",
       s2h: "여덟 권역, 여덟 가지 팩", s2p: "권역마다 사는 새와 풍경이 달라요. 팩 표지도 그 권역의 풍경이에요.",
@@ -19,6 +19,8 @@
       endBody: "내려받기는 무료예요. 매일 2팩, 오늘의 새와 함께 시작하세요.",
       privacy: "개인정보 처리방침", terms: "이용약관", support: "지원",
       credits: "© 2026 SummerRiversound · 글꼴 갈무리(SIL OFL 1.1)",
+      share: "공유", shareText: "카드깡 시뮬레이터에서 {n} 카드를 뽑았어요!", friend: "친구가 뽑은 카드",
+      copied: "주소를 복사했어요", saved: "그림을 저장했어요",
     },
     en: {
       name: "TCG Pack Simulator", pack: "Pack", packTab: "Open a pack", fiveCards: "5 cards", iphone: "iPhone",
@@ -29,7 +31,7 @@
       other: "Feather Note", otherWhat: "Want to photograph these birds for real?", otherGo: "See Feather Note →",
       wAbout: "About", wAboutTitle: "What is TCG Pack Simulator?", wPulls: "My pulls", wOdds: "Pack odds (Korean)", wLegal: "Help", close: "Close",
       pullsEmpty: "No packs opened yet. Tear the pack in the middle.",
-      f1: "781 real bird species, each one a card.", f2: "Shake, blow on and tear the pack to open it.", f3: "Birds you pull wander an HD-2D meadow.", f4: "A bird of the day and 2 free packs every day.",
+      f1: "781 real bird species, each one a card.", f2: "Shake, tilt and tear the pack to open it.", f3: "Birds you pull wander an HD-2D meadow.", f4: "A bird of the day and 2 free packs every day.",
       deskHint: "Click the icons · drag windows by their bar",
       s1h: "781 real birds became cards", s1p: "From sparrows to cranes, every one lives somewhere on Earth.",
       s2h: "Eight realms, eight packs", s2p: "Each realm has its own birds and scenery, and its pack wears that landscape.",
@@ -38,6 +40,8 @@
       endBody: "Free to download. Start with 2 packs a day and the bird of the day.",
       privacy: "Privacy Policy", terms: "Terms of Use", support: "Support",
       credits: "© 2026 SummerRiversound · Font: Galmuri (SIL OFL 1.1)",
+      share: "Share", shareText: "I pulled {n} in TCG Pack Simulator!", friend: "A friend pulled this",
+      copied: "Link copied", saved: "Picture saved",
     },
     ja: {
       name: "神引きシミュレーター", pack: "パック", packTab: "パックを開ける", fiveCards: "カード5枚", iphone: "iPhone",
@@ -48,7 +52,7 @@
       other: "Feather Note", otherWhat: "この鳥たち、本物を撮ってみる？", otherGo: "Feather Noteを見る →",
       wAbout: "紹介", wAboutTitle: "神引きシミュレーターとは", wPulls: "引いたカード", wOdds: "パックの確率（韓国語）", wLegal: "ヘルプ", close: "閉じる",
       pullsEmpty: "まだパックを開けていない。真ん中のパックを開けてみよう。",
-      f1: "本物の鳥781種がカードになった。", f2: "パックは振って、息を吹いて、破って開ける。", f3: "引いた鳥はHD-2Dの草原を歩き回る。", f4: "毎日「今日の鳥」が来て、2パックもらえる。",
+      f1: "本物の鳥781種がカードになった。", f2: "パックは振って、傾けて、破って開ける。", f3: "引いた鳥はHD-2Dの草原を歩き回る。", f4: "毎日「今日の鳥」が来て、2パックもらえる。",
       deskHint: "アイコンをクリック・ウィンドウは帯をつかんで動かす",
       s1h: "本物の鳥781種がカードに", s1p: "スズメからタンチョウまで、実際に暮らす鳥たち。",
       s2h: "8つの地域、8つのパック", s2p: "地域ごとに鳥も風景も違う。パックの表紙もその地域の風景。",
@@ -57,6 +61,8 @@
       endBody: "ダウンロードは無料。毎日2パックと「今日の鳥」から始めよう。",
       privacy: "プライバシーポリシー", terms: "利用規約", support: "サポート",
       credits: "© 2026 SummerRiversound · フォント Galmuri（SIL OFL 1.1）",
+      share: "シェア", shareText: "神引きシミュレーターで{n}が出た！", friend: "友だちが引いたカード",
+      copied: "リンクをコピーした", saved: "画像を保存した",
     },
   };
   const t = k => Site.t(T, k);
@@ -66,11 +72,10 @@
   const realmName = id => D.realms[id].name[Site.lang];
 
   // chrome
-  document.title = t("name");
   Site.applyText(T);
   Site.langSwitch(document.querySelector(".langs"));
   document.querySelectorAll("[data-stores]").forEach(n => { n.innerHTML = Site.stores("cardkkang", n.dataset.stores, n.dataset.stores === "bar" ? "small" : ""); });
-  document.querySelectorAll("[data-other]").forEach(a => { a.href = window.SITE_LINKS.feathernote.site + "?lang=" + Site.lang; });
+  document.querySelectorAll("[data-other]").forEach(a => { a.href = Site.home("feathernote"); });
   Site.wireSoon();
   Site.desk(document.getElementById("hero"));
 
@@ -101,7 +106,7 @@
   }
   const rel = e => { const r = pack.getBoundingClientRect(); return { x: (e.clientX - r.left) / r.width, y: (e.clientY - r.top) / r.height }; };
   s.addEventListener("pointerdown", e => {
-    if (opened || e.target.closest("button, a, .result")) return;
+    if (tuck() || opened || e.target.closest("button, a, .result")) return;
     const p = rel(e);
     if (p.y > -.2 && p.y < .3 && p.x > -.15 && p.x < 1.15) { tearing = true; minX = maxX = p.x; s.setPointerCapture(e.pointerId); }
     else if (p.y > 0 && p.y < 1 && p.x > 0 && p.x < 1) { pack.animate([{ rotate: "0deg" }, { rotate: "-2deg" }, { rotate: "2deg" }, { rotate: "0deg" }], { duration: 300, easing: "ease-out" }); say(t("inside")); }
@@ -133,6 +138,7 @@
   function finish(cards) {
     const rare = cards[4];
     pulls.push(...cards); renderPulls();
+    picture = sharePicture(rare); shared = rare;
     setTimeout(() => {
       hint.textContent = "";
       row.style.top = "3%"; row.style.transform = "scale(.72)";
@@ -144,6 +150,54 @@
     }, 450);
   }
   result.querySelector(".again").addEventListener("click", reset);
+
+  // share: the rare card as the game's Showcase share picture (photo-share "그 순간"): the card
+  // large over the realm's meadow, a dex window under it with its number, name, tier and realm
+  // beside the title art. The link brings the friend to the same card first (?pull=).
+  let picture = null, shared = null;
+  const shareBtn = result.querySelector(".share");
+  function sharePicture(b) {
+    return Site.picture(1080, 1350, async (g) => {
+      const [cover, bird, logo] = await Promise.all([Site.img(realm.cover), Site.img(`birds/${b.id}.png`), Site.img(`img/title-${Site.lang}.png`)]);
+      g.drawImage(cover, -96, -45, 1272, 1440);
+      g.fillStyle = "rgba(194,148,53,.16)"; g.fillRect(0, 0, 1080, 1350);
+      Site.drawCard(g, b, bird, 220, 52, 8);
+      Site.pane(g, 48, 1000, 984, 302, 4);
+      const logoW = logo.width * 2, logoH = logo.height * 2, textW = 984 - logoW - 104;
+      g.fillStyle = "#1a1c17"; g.textBaseline = "middle"; g.font = '700 48px "Galmuri11"';
+      g.fillText(`${Site.pad(b.no)} ${Site.name(b)}`, 88, 1100, textW);
+      g.fillStyle = "rgba(26,28,23,.7)"; g.font = '36px "Galmuri11"';
+      g.fillText(`${D.tiers[b.rarity][Site.lang]} · ${realmName(realmId)}`, 88, 1176, textW);
+      g.drawImage(logo, 1032 - 36 - logoW, 1000 + (302 - logoH) / 2, logoW, logoH);
+    });
+  }
+  shareBtn.addEventListener("click", async () => {
+    if (!picture) return;
+    if (Site.motion) shareBtn.animate([{ transform: "scale(1)" }, { transform: "scale(.86, 1.12)" }, { transform: "scale(1.08, .94)" }, { transform: "scale(1)" }], { duration: 320, easing: "ease-out" });
+    const card = show.querySelector(".card");
+    if (card && Site.motion) card.animate([{ translate: "0 0" }, { translate: "0 -14px" }, { translate: "0 0" }], { duration: 420, easing: "cubic-bezier(.34,1.56,.64,1)" });
+    const url = Site.home("cardkkang") + "?pull=" + shared.id;
+    const how = await Site.share(await picture, `cardkkang-${shared.id}.png`, t("shareText").replace("{n}", Site.name(shared)), url);
+    if (how === "copied") say(t("copied")); else if (how === "saved") say(t("saved"));
+  });
+
+  // a friend's shared link: their card waits over the pack; a tap tucks it into the pack
+  const pulled = new URLSearchParams(location.search).get("pull");
+  const friendBird = pulled && Object.values(D.realms).flatMap(r => r.birds || []).find(b => b.id === pulled);
+  let friend = null;
+  if (friendBird) {
+    friend = Site.el(`<div class="friend"><span class="chip" data-t="friend"></span>${Site.cardHtml(friendBird, Site.name(friendBird), "flip big")}</div>`);
+    friend.querySelector(".chip").textContent = t("friend");
+    s.append(friend); Site.tilt(friend.querySelector(".card"));
+    hint.style.opacity = 0; title.style.opacity = 0;
+  }
+  function tuck() {
+    if (!friend) return false;
+    const f = friend; friend = null;
+    f.classList.add("tuck"); hint.style.opacity = ""; title.style.opacity = 1;
+    setTimeout(() => { f.remove(); if (Site.motion) pack.animate([{ rotate: "0deg" }, { rotate: "-3deg" }, { rotate: "3deg" }, { rotate: "0deg" }], { duration: 360, easing: "ease-out" }); }, 480);
+    return true;
+  }
   function renderPulls() {
     document.getElementById("pullsEmpty").hidden = pulls.length > 0;
     document.getElementById("pulls").innerHTML = pulls.slice(-15).map(b => `<div title="${Site.name(b)}"><img class="pix" src="birds/${b.id}.png" alt="${Site.name(b)}"></div>`).join("");
