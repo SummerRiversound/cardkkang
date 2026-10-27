@@ -27,7 +27,7 @@ iPhone이 iCloud에 로그인되어 있으면 게임 기록(카드, 도감, 팩,
 
 ### 광고 (Google AdMob)
 
-팩 고르기의 '광고 보고 1팩 열기'는 Google LLC의 AdMob이 보여 주는 보상형 광고입니다. 광고는 이용자가 버튼을 눌렀을 때만 나옵니다. 이 게임에 들어 있는 Google의 SDK(Google Mobile Ads, User Messaging Platform)는 Google이 공개한 내용에 따라 다음 정보를 수집해 Google에 보냅니다.
+팩 고르기의 '광고 보고 팩 열기'와 수수께끼 새의 '광고 보고 한 번 더'는 Google LLC의 AdMob이 보여 주는 보상형 광고입니다. 광고는 이용자가 버튼을 눌렀을 때만 나옵니다. 이 게임에 들어 있는 Google의 SDK(Google Mobile Ads, User Messaging Platform)는 Google이 공개한 내용에 따라 다음 정보를 수집해 Google에 보냅니다.
 
 - 기기 식별자: 광고 식별자(IDFA, 추적을 허용한 경우에만) 같은 기기의 식별자
 - 광고 데이터: 어떤 광고를 보고 눌렀는지
@@ -63,7 +63,7 @@ Google은 이 정보를 광고 보여 주기와 성과 측정, 부정 클릭 막
 
 ### Game Center
 
-iPhone이 Game Center에 로그인되어 있으면 게임은 도감 완성 도장, 여덟 권역 정원, 연속 기록 같은 업적의 달성 정도를 Apple의 Game Center에 기록해, Game Center와 게임 앱에서 볼 수 있게 합니다. 업적은 Apple이 이용자의 Game Center 계정에 보관하며, 개발자는 이용자 개인의 업적이나 계정 정보를 받지 않습니다. 순위표는 없습니다. 로그인하지 않아도 게임은 그대로 즐길 수 있고, 로그인은 기록 화면의 Game Center 버튼에서만 권합니다. iPhone 설정 → Game Center에서 로그아웃하거나 친구에게 보이는 정보를 바꿀 수 있습니다. Apple의 처리 방식은 Apple 개인정보 처리방침에 있습니다.
+iPhone이 Game Center에 로그인되어 있으면 게임은 도감 완성 도장, 버드정원, 연속 기록 같은 업적의 달성 정도를 Apple의 Game Center에 기록해, Game Center와 게임 앱에서 볼 수 있게 합니다. 업적은 Apple이 이용자의 Game Center 계정에 보관하며, 개발자는 이용자 개인의 업적이나 계정 정보를 받지 않습니다. 순위표는 없습니다. 로그인하지 않아도 게임은 그대로 즐길 수 있고, 로그인은 기록 화면의 Game Center 버튼에서만 권합니다. iPhone 설정 → Game Center에서 로그아웃하거나 친구에게 보이는 정보를 바꿀 수 있습니다. Apple의 처리 방식은 Apple 개인정보 처리방침에 있습니다.
 
 ### 그림 공유
 
@@ -155,7 +155,7 @@ If your iPhone is signed in to iCloud, the game backs up your records (cards, de
 
 ### Ads (Google AdMob)
 
-Watch an Ad for 1 Pack on pack select shows a rewarded ad from Google LLC's AdMob. An ad plays only when you tap that button. Google's SDKs in this game (Google Mobile Ads and the User Messaging Platform) collect the following and send it to Google, as Google discloses:
+Watch an Ad for Packs on pack select and One More Guess with an Ad on the Mystery Bird show rewarded ads from Google LLC's AdMob. An ad plays only when you tap one of those buttons. Google's SDKs in this game (Google Mobile Ads and the User Messaging Platform) collect the following and send it to Google, as Google discloses:
 
 - Device identifiers: such as the advertising identifier (IDFA, only if you allow tracking)
 - Advertising data: which ads you saw and tapped
@@ -191,7 +191,7 @@ The daily reminder is optional and starts off. When you turn it on, iOS asks for
 
 ### Game Center
 
-If your iPhone is signed in to Game Center, the game records your progress on achievements such as completed dex stamps, the eight-realm garden and your streak in Apple's Game Center, so you can see them in Game Center and the Games app. Apple keeps them in your Game Center account; the developer never receives your own achievements or account details. There are no leaderboards. You can play the whole game without signing in, and the game suggests signing in only from the Game Center button on the records screen. You can sign out or change what friends see in iPhone Settings → Game Center. How Apple handles your data: Apple's Privacy Policy.
+If your iPhone is signed in to Game Center, the game records your progress on achievements such as completed dex stamps, the Bird Garden and your streak in Apple's Game Center, so you can see them in Game Center and the Games app. Apple keeps them in your Game Center account; the developer never receives your own achievements or account details. There are no leaderboards. You can play the whole game without signing in, and the game suggests signing in only from the Game Center button on the records screen. You can sign out or change what friends see in iPhone Settings → Game Center. How Apple handles your data: Apple's Privacy Policy.
 
 ### Sharing a picture
 
@@ -278,7 +278,7 @@ iPhoneがiCloudにサインインしていれば、ゲームの記録（カー�
 
 ### 広告（Google AdMob）と情報の外部送信
 
-パック選択の「広告を見て1パック開封」は、Google LLCのAdMobが表示するリワード広告です。広告はそのボタンを押したときにだけ流れます。このゲームに含まれるGoogleのSDK（Google Mobile Ads、User Messaging Platform）は、Googleが公表している内容に従って、次の情報を収集してGoogleに送信します。
+パック選択の「広告を見てパック開封」となぞの鳥の「広告を見てもう一回」は、Google LLCのAdMobが表示するリワード広告です。広告はそのボタンを押したときにだけ流れます。このゲームに含まれるGoogleのSDK（Google Mobile Ads、User Messaging Platform）は、Googleが公表している内容に従って、次の情報を収集してGoogleに送信します。
 
 - 端末の識別子: 広告識別子（IDFA、トラッキングを許可した場合のみ）などの端末の識別子
 - 広告データ: どの広告を見て、タップしたか
@@ -314,7 +314,7 @@ Googleはこれらの情報を、広告の表示と効果測定、不正の防�
 
 ### Game Center
 
-iPhoneがGame Centerにサインインしている場合、ゲームは図鑑完成のスタンプ、八地域の庭、連続記録などの実績の達成度をAppleのGame Centerに記録し、Game CenterとゲームAppで見られるようにします。実績はAppleが利用者のGame Centerアカウントに保管し、開発者は利用者個人の実績やアカウントの情報を受け取りません。ランキングはありません。サインインしなくてもゲームはそのまま楽しめ、サインインは記録画面のGame Centerボタンからだけご案内します。iPhoneの設定 → Game Centerで、サインアウトしたり、フレンドに見える情報を変えたりできます。Appleによる取り扱いは、Appleのプライバシーポリシーをご覧ください。
+iPhoneがGame Centerにサインインしている場合、ゲームは図鑑完成のスタンプ、バードガーデン、連続記録などの実績の達成度をAppleのGame Centerに記録し、Game CenterとゲームAppで見られるようにします。実績はAppleが利用者のGame Centerアカウントに保管し、開発者は利用者個人の実績やアカウントの情報を受け取りません。ランキングはありません。サインインしなくてもゲームはそのまま楽しめ、サインインは記録画面のGame Centerボタンからだけご案内します。iPhoneの設定 → Game Centerで、サインアウトしたり、フレンドに見える情報を変えたりできます。Appleによる取り扱いは、Appleのプライバシーポリシーをご覧ください。
 
 ### 画像の共有
 

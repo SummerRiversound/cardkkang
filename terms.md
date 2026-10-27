@@ -28,7 +28,7 @@
 
 ### 광고
 
-팩 고르기의 '광고 보고 1팩 열기'는 선택입니다. 광고를 끝까지 보면 팩 1개를 받으며, 하루에 볼 수 있는 광고 수에는 상한이 있습니다. 광고는 Google이 고르고 보여 주며, 광고 속 상품이나 서비스는 광고주의 것입니다. 광고를 불러오지 못하거나 끝까지 보지 않으면 팩을 받지 못하며, 그때는 하루 횟수가 줄지 않습니다. 광고와 관련된 정보 처리는 개인정보 처리방침에 있습니다.
+팩 고르기의 '광고 보고 팩 열기'는 선택입니다. 광고를 끝까지 보면 팩을 받으며(그날 첫 광고는 2개, 그다음은 1개), 하루에 볼 수 있는 광고 수에는 상한이 있습니다. 광고는 Google이 고르고 보여 주며, 광고 속 상품이나 서비스는 광고주의 것입니다. 광고를 불러오지 못하거나 끝까지 보지 않으면 팩을 받지 못하며, 그때는 하루 횟수가 줄지 않습니다. 수수께끼 새를 세 번 모두 틀렸을 때 나오는 '광고 보고 한 번 더'도 선택이며, 광고를 끝까지 보면 그 주에 한 번 더 찍을 수 있습니다. 이 광고는 하루 광고 수에 들어가지 않고, 무제한 이용권이 있으면 광고 없이 한 번 더 찍을 수 있습니다. 광고와 관련된 정보 처리는 개인정보 처리방침에 있습니다.
 
 ### 게임 기록
 
@@ -82,7 +82,7 @@ If a minor paid without a parent's or guardian's consent, the minor or the paren
 
 ### Ads
 
-Watch an Ad for 1 Pack on pack select is optional. Watching an ad to the end gives you one pack, and the number of ads per day is limited. Google chooses and shows the ads; the products and services in them belong to the advertisers. If an ad fails to load or you close it early, you get no pack, and it does not count toward the daily limit. How ad data is handled is in the privacy policy.
+Watch an Ad for Packs on pack select is optional. Watching an ad to the end gives you packs (two for the day's first ad, one for each after), and the number of ads per day is limited. Google chooses and shows the ads; the products and services in them belong to the advertisers. If an ad fails to load or you close it early, you get no pack, and it does not count toward the daily limit. One More Guess with an Ad, offered after three wrong guesses at the Mystery Bird, is optional too: watching that ad to the end gives you one more guess that week. It does not count toward the daily limit, and with the unlimited pass you get the extra guess without an ad. How ad data is handled is in the privacy policy.
 
 ### Your game records
 
@@ -136,7 +136,7 @@ summer.riversound@gmail.com
 
 ### 広告
 
-パック選択の「広告を見て1パック開封」は任意です。広告を最後まで見るとパックを1つもらえ、1日に見られる広告の数には上限があります。広告はGoogleが選んで表示し、広告の中の商品やサービスは広告主のものです。広告を読み込めなかったり途中で閉じたりした場合はパックはもらえず、その回数は1日の上限に数えません。広告に関する情報の取り扱いはプライバシーポリシーにあります。
+パック選択の「広告を見てパック開封」は任意です。広告を最後まで見るとパックがもらえ（その日の最初の広告は2つ、その後は1つ）、1日に見られる広告の数には上限があります。広告はGoogleが選んで表示し、広告の中の商品やサービスは広告主のものです。広告を読み込めなかったり途中で閉じたりした場合はパックはもらえず、その回数は1日の上限に数えません。なぞの鳥を3回とも外したときに出る「広告を見てもう一回」も任意で、広告を最後まで見るとその週にもう一回だけ選べます。この広告は1日の上限に数えず、無制限パスがあれば広告なしでもう一回選べます。広告に関する情報の取り扱いはプライバシーポリシーにあります。
 
 ### ゲームの記録
 
