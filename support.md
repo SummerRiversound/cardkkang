@@ -16,7 +16,7 @@
 - **맞춤 광고나 추적을 끄고 싶어요.** iPhone 설정 → 개인정보 보호 및 보안 → 추적에서 끄세요. 게임 설정에 '개인정보 옵션'이 보이는 지역에서는 거기서 광고 동의를 다시 고를 수 있습니다.
 - **기록을 백업하거나 되살리고 싶어요.** iPhone이 iCloud에 로그인되어 있으면 게임 기록이 본인의 iCloud에 백업됩니다. 다시 설치하거나 새 기기에서 처음 열면 iCloud의 기록으로 되살릴지 묻습니다. 기기와 iCloud 양쪽에 기록이 있으면 어느 쪽을 쓸지 고르게 하고, 둘을 합치지는 않습니다. 무제한 이용권은 백업에 들어가지 않으니 '구매 복원'으로 받으세요.
 - **팩 확률은 어디서 보나요?** 상점의 이용권 탭과 모이통 탭, 팩 화면의 '확률 보기'와 [확률 페이지](odds/)에서 볼 수 있습니다.
-- **입김을 불어도 새가 안 날아가요.** 게임 설정에서 '마이크로 바람 불기'를 켜세요. 전에 마이크 권한을 거절했다면 iPhone 설정 → 카드깡 시뮬레이터 → 마이크를 먼저 켜 주세요.
+- **입김을 불어도 새가 안 날아가요.** 입김은 상점의 도구 '선풍기'를 초원에 꺼내 두었을 때만 들어요. 선풍기의 '입으로도 불 수 있어요' 말풍선을 눌러 마이크를 허락하세요. 전에 마이크 권한을 거절했다면 iPhone 설정 → 카드깡 시뮬레이터 → 마이크를 먼저 켜 주세요.
 
 [개인정보 처리방침](privacy.html) · [이용약관](terms.html) · [팩 확률](odds/)
 
@@ -36,7 +36,7 @@ TCG Pack Simulator is a game about opening packs of collectible cards showing re
 - **Turning off personalized ads or tracking.** Turn it off in iPhone Settings → Privacy & Security → Tracking. Where Privacy Options shows in the game's settings, you can change your ad choices there too.
 - **Backing up or restoring your records.** If your iPhone is signed in to iCloud, your game records are backed up to your own iCloud. When you open the game for the first time after reinstalling or on a new device, it asks whether to bring back the records from iCloud. If both the device and iCloud have records, you choose one; they are never merged. The Unlimited Pass is not in the backup: get it back with Restore Purchases.
 - **Where are the pack odds?** In the shop's Pass and Feeder tabs, under View Odds on the pack screens, and on the [odds page](odds/) (in Korean).
-- **Blowing does not make the birds take off.** Turn on Blow with Mic in the game's settings. If you refused the microphone before, first turn it on in iPhone Settings → TCG Pack Simulator → Microphone.
+- **Blowing does not make the birds take off.** The game hears you only while the Desk Fan (a tool from the shop) is out on the meadow. Tap its "You can blow on it too" bubble to allow the microphone. If you refused the microphone before, first turn it on in iPhone Settings → TCG Pack Simulator → Microphone.
 
 [Privacy Policy](privacy.html) · [Terms of Use](terms.html) · [Pack Odds](odds/)
 
@@ -56,7 +56,7 @@ TCG Pack Simulator is a game about opening packs of collectible cards showing re
 - **パーソナライズ広告やトラッキングをオフにしたい。** iPhoneの設定 → プライバシーとセキュリティ → トラッキングでオフにしてください。ゲームの設定に「プライバシーオプション」が表示される地域では、そこでも広告の同意を選び直せます。
 - **記録をバックアップしたい・元に戻したい。** iPhoneがiCloudにサインインしていれば、ゲームの記録は本人のiCloudにバックアップされます。再インストールや新しい端末で初めて開くと、iCloudの記録で元に戻すかを尋ねます。端末とiCloudの両方に記録があるときはどちらを使うかを選び、2つを混ぜることはありません。無制限パスはバックアップに含まれないので、「購入を復元」で取り戻してください。
 - **パックの確率はどこで見られますか。** ショップのパスとエサ台のタブ、パック画面の「確率を見る」と[確率ページ](odds/)（韓国語）で見られます。
-- **息を吹いても鳥が飛び立たない。** ゲームの設定で「マイクで風を吹く」をオンにしてください。以前マイクの許可を断った場合は、先にiPhoneの設定 → 神引きシミュレーター → マイクをオンにしてください。
+- **息を吹いても鳥が飛び立たない。** 息を聞くのは、ショップの道具「扇風機」を草原に出しているときだけです。扇風機の「息でも吹けます」の吹き出しをタップしてマイクを許可してください。以前マイクの許可を断った場合は、先にiPhoneの設定 → 神引きシミュレーター → マイクをオンにしてください。
 
 ### 特定商取引法に基づく表記
 

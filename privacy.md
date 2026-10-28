@@ -2,7 +2,7 @@
 
 ## 한국어
 
-시행일: 2026-10-22
+시행일: 2026-10-28
 
 **카드깡 시뮬레이터에는 회원 가입이 없고, 개발자가 운영하는 서버도 없습니다.** 게임 기록은 이용자의 기기와 본인의 iCloud에만 저장됩니다. 다만 보상형 광고를 보여 주는 Google과 결제를 처리하는 Apple은 아래와 같이 정보를 처리합니다.
 
@@ -55,7 +55,7 @@ Google은 이 정보를 광고 보여 주기와 성과 측정, 부정 클릭 막
 
 ### 마이크
 
-'마이크로 바람 불기'는 선택 기능이며 처음에는 꺼져 있습니다. 켜면 iOS가 마이크 권한을 묻고, 초원 화면이 앞에 있을 때만 소리를 듣습니다. 입김의 세기는 기기 안에서 바로 계산해 새를 날려 보내는 데만 쓰며, 소리를 녹음하거나 저장하거나 기기 밖으로 보내지 않습니다. 광고가 나오는 동안에는 듣지 않습니다. 게임 설정에서 언제든 끌 수 있습니다.
+입으로 바람 불기는 선택 기능입니다. 초원에 꺼낸 선풍기의 '입으로도 불 수 있어요' 말풍선을 누를 때 iOS가 마이크 권한을 묻고, 그 뒤로도 선풍기가 초원에 나와 있는 동안에만 소리를 듣습니다. 입김의 세기는 기기 안에서 바로 계산해 새를 날려 보내는 데만 쓰며, 소리를 녹음하거나 저장하거나 기기 밖으로 보내지 않습니다. 광고가 나오는 동안에는 듣지 않습니다. 선풍기를 넣으면 바로 듣기를 멈추고, iPhone 설정에서 마이크 권한을 언제든 끌 수 있습니다.
 
 ### 매일 알림
 
@@ -130,7 +130,7 @@ summer.riversound@gmail.com
 
 ## English
 
-Effective: 2026-10-22
+Effective: 2026-10-28
 
 **TCG Pack Simulator has no sign-up, and the developer runs no servers.** Your game records stay on your device and in your own iCloud. Google, which shows the rewarded ads, and Apple, which handles payment, process information as described below.
 
@@ -183,7 +183,7 @@ Apple handles payment for the Unlimited Pass on the App Store. Only Apple handle
 
 ### Microphone
 
-Blow with Mic is optional and starts off. When you turn it on, iOS asks for microphone access, and the game listens only while the meadow is on screen. How hard you blow is worked out on your device and used only to make the birds take off; no sound is recorded, saved or sent anywhere. It does not listen while an ad is playing. You can turn it off in the game's settings at any time.
+Blowing with your mouth is optional. iOS asks for microphone access when you tap the fan's "You can blow on it too" bubble on the meadow, and after that the game listens only while the fan is out on the meadow. How hard you blow is worked out on your device and used only to make the birds take off; no sound is recorded, saved or sent anywhere. It does not listen while an ad is playing. It stops listening as soon as the fan is put away, and you can turn microphone access off in iPhone Settings at any time.
 
 ### Daily reminder
 
@@ -253,7 +253,7 @@ summer.riversound@gmail.com
 
 ## 日本語
 
-施行日: 2026-10-22
+施行日: 2026-10-28
 
 **神引きシミュレーターにはアカウント登録がなく、開発者が運営するサーバーもありません。** ゲームの記録は利用者の端末と本人のiCloudにだけ保存されます。ただし、リワード広告を表示するGoogleと、決済を処理するAppleは、以下のとおり情報を取り扱います。
 
@@ -306,7 +306,7 @@ Googleはこれらの情報を、広告の表示と効果測定、不正の防�
 
 ### マイク
 
-「マイクで風を吹く」は任意の機能で、最初はオフです。オンにするとiOSがマイクの許可を求め、草原の画面が表示されているときだけ音を聞きます。息の強さは端末の中ですぐに計算し、鳥を飛び立たせることだけに使います。音を録音・保存したり、端末の外へ送ったりすることはありません。広告の再生中は音を聞きません。ゲームの設定でいつでもオフにできます。
+息で風を吹くのは任意の機能です。草原に出した扇風機の「息でも吹けます」の吹き出しをタップするとiOSがマイクの許可を求め、その後も扇風機が草原に出ている間だけ音を聞きます。息の強さは端末の中ですぐに計算し、鳥を飛び立たせることだけに使います。音を録音・保存したり、端末の外へ送ったりすることはありません。広告の再生中は音を聞きません。扇風機をしまうとすぐに聞くのをやめ、マイクの許可はiPhoneの設定でいつでもオフにできます。
 
 ### 毎日のお知らせ
 
