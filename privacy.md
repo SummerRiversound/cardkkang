@@ -87,8 +87,8 @@ iPhone이 Game Center에 로그인되어 있으면 게임은 도감 완성 도�
 
 ### 보관 기간과 파기
 
-- 기기의 게임 기록과 연령대: 앱을 지울 때까지 보관하고, 앱을 지우면 함께 지워집니다.
-- iCloud 백업: 이용자의 iCloud에 남으며, Apple 계정과 iCloud의 데이터 관리 기능으로 지울 수 있습니다.
+- 기기의 게임 기록과 연령대: 앱을 지울 때까지 보관하고, 앱을 지우면 함께 지워집니다. 게임 기록은 설정의 "처음부터 다시 시작"으로 언제든 지울 수도 있습니다.
+- iCloud 백업: 이용자의 iCloud에 남으며, "처음부터 다시 시작"에서 함께 지우거나 Apple 계정과 iCloud의 데이터 관리 기능으로 지울 수 있습니다.
 - 예약된 알림: 매일 알림을 끄거나 앱을 지우면 함께 지워집니다.
 - Game Center 업적: 이용자의 Game Center 계정에 남으며, Apple의 방침에 따릅니다.
 - Google이 수집한 정보: Google의 개인정보처리방침에 따릅니다.
@@ -215,8 +215,8 @@ For ads, the information in "Ads" above is transferred abroad as follows.
 
 ### Retention and deletion
 
-- Game records and age range on your device: kept until you delete the app, which deletes them.
-- iCloud backup: stays in your iCloud, and can be deleted with your Apple Account's iCloud data management.
+- Game records and age range on your device: kept until you delete the app, which deletes them. You can also erase the game records at any time with "Start Over" in the settings.
+- iCloud backup: stays in your iCloud, and can be deleted together with your records in "Start Over" or with your Apple Account's iCloud data management.
 - Scheduled reminders: deleted when you turn the daily reminder off or delete the app.
 - Game Center achievements: stay in your Game Center account, under Apple's policy.
 - Information Google collects: kept under Google's Privacy Policy.
@@ -340,8 +340,8 @@ iPhoneがGame Centerにサインインしている場合、ゲームは図鑑完
 
 ### 保存期間と削除
 
-- 端末のゲームの記録と年齢層: アプリを削除するまで保存し、削除すると一緒に消えます。
-- iCloudバックアップ: 利用者のiCloudに残り、Apple AccountのiCloudのデータ管理で削除できます。
+- 端末のゲームの記録と年齢層: アプリを削除するまで保存し、削除すると一緒に消えます。ゲームの記録は、設定の「最初からやり直す」でいつでも消すこともできます。
+- iCloudバックアップ: 利用者のiCloudに残り、「最初からやり直す」で一緒に消すか、Apple AccountのiCloudのデータ管理で削除できます。
 - 登録した通知: 毎日のお知らせをオフにするか、アプリを削除すると一緒に消えます。
 - Game Centerの実績: 利用者のGame Centerアカウントに残り、Appleのポリシーに従います。
 - Googleが収集した情報: Googleのプライバシーポリシーに従います。
