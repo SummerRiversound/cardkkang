@@ -2,7 +2,7 @@
 
 ## 한국어
 
-시행일: 2026-10-28
+시행일: 2026-11-10
 
 **카드깡 시뮬레이터에는 회원 가입이 없고, 개발자가 운영하는 서버도 없습니다.** 게임 기록은 이용자의 기기와 본인의 iCloud에만 저장됩니다. 다만 보상형 광고를 보여 주는 Google과 결제를 처리하는 Apple은 아래와 같이 정보를 처리합니다.
 
@@ -10,7 +10,7 @@
 
 - 게임 기록: 기기에 저장하고, iCloud를 쓰면 본인의 iCloud에 백업합니다. 개발자는 볼 수 없습니다.
 - 광고: Google AdMob이 광고를 보여 주려고 기기 식별자, 대략적인 위치, 광고·이용 기록, 진단 정보를 수집합니다.
-- 추적: iOS의 '추적 허용' 질문에 허용한 경우에만 Google이 광고 식별자(IDFA)를 맞춤 광고에 씁니다.
+- 추적: 이 게임은 추적하지 않습니다. iOS의 '추적 허용'을 묻지 않고, 광고 식별자(IDFA)를 쓰지 않으며, 광고는 맞춤형이 아닌 광고만 나옵니다.
 - 결제: 무제한 이용권은 Apple이 App Store에서 결제를 처리합니다. 개발자는 결제 정보를 받지 않습니다.
 - 마이크: 입김의 세기만 기기 안에서 계산하고, 소리를 녹음하거나 내보내지 않습니다.
 - 나이: Apple이 알려 주는 연령대만 기기에 저장하고, 광고를 제한하는 데만 씁니다.
@@ -29,25 +29,25 @@ iPhone이 iCloud에 로그인되어 있으면 게임 기록(카드, 도감, 팩,
 
 팩 고르기의 '광고 보고 팩 열기'와 수수께끼 새의 '광고 보고 한 번 더'는 Google LLC의 AdMob이 보여 주는 보상형 광고입니다. 광고는 이용자가 버튼을 눌렀을 때만 나옵니다. 이 게임에 들어 있는 Google의 SDK(Google Mobile Ads, User Messaging Platform)는 Google이 공개한 내용에 따라 다음 정보를 수집해 Google에 보냅니다.
 
-- 기기 식별자: 광고 식별자(IDFA, 추적을 허용한 경우에만) 같은 기기의 식별자
+- 기기 식별자: 광고 횟수 제한과 부정 방지에 쓰는 기기의 식별자 (광고 식별자 IDFA는 받지 않습니다)
 - 광고 데이터: 어떤 광고를 보고 눌렀는지
 - 대략적인 위치: IP 주소로 추정한 나라·지역 (정확한 위치는 수집하지 않습니다)
 - 이용 기록: 앱 실행, 광고 보기·누르기 같은 상호작용
 - 진단 정보: 앱 성능, 오류(크래시) 기록 같은 진단 데이터
 
-Google은 이 정보를 광고 보여 주기와 성과 측정, 부정 클릭 막기, 분석에 쓰고, 추적을 허용한 경우 관심사에 맞춘 광고에도 씁니다. 어떤 동의 화면을 보여 줄지 정하려고 대략적인 위치와 이용 기록을 쓰기도 합니다. Google이 정보를 쓰는 방식은 Google 개인정보처리방침(<https://policies.google.com/privacy>)과 <https://policies.google.com/technologies/partner-sites>에 있습니다.
+Google은 이 정보를 광고 보여 주기와 성과 측정, 부정 클릭 막기, 분석에 씁니다. 게임은 모든 광고 요청에 '맞춤형이 아닌 광고'를 요청하므로, 관심사에 맞춘 광고에는 쓰이지 않습니다. 어떤 동의 화면을 보여 줄지 정하려고 대략적인 위치와 이용 기록을 쓰기도 합니다. Google이 정보를 쓰는 방식은 Google 개인정보처리방침(<https://policies.google.com/privacy>)과 <https://policies.google.com/technologies/partner-sites>에 있습니다.
 
-### 추적 허용 질문 (ATT)
+### 추적하지 않음
 
-처음 광고를 보기 전에 iOS가 '다른 회사의 앱 및 웹 사이트에 걸친 활동 추적'을 허용할지 묻습니다. 허용하면 Google이 광고 식별자(IDFA)를 맞춤 광고와 광고 측정에 씁니다. 허용하지 않으면 광고 식별자를 받지 않으며, 관심사와 무관한 광고가 나올 수 있습니다. 어느 쪽을 골라도 팩은 똑같이 받습니다. 선택은 iPhone 설정 → 개인정보 보호 및 보안 → 추적에서 언제든 바꿀 수 있습니다.
+이 게임은 다른 회사의 앱이나 웹 사이트에 걸쳐 이용자의 활동을 추적하지 않습니다. 그래서 iOS의 '추적 허용' 질문을 띄우지 않고, 광고 식별자(IDFA)를 쓰지 않으며, 맞춤 광고를 보여 주지 않습니다. 광고는 나이와 상관없이 모두 맞춤형이 아닌 광고입니다.
 
 ### 광고 동의와 개인정보 옵션
 
-법이 동의나 거부 선택을 요구하는 지역(예: 유럽, 미국 일부 주)에서는 광고 전에 Google의 동의 화면이 뜹니다. 그 지역에서는 게임 설정에 '개인정보 옵션'이 보이며, 눌러서 광고 동의를 언제든 다시 고르거나, 미국 주 법에 따른 '내 개인정보 판매·공유 거부'를 고를 수 있습니다. 동의하지 않아도 광고는 맞춤형이 아닌 형태로 나올 수 있고, 게임의 다른 기능은 그대로 씁니다.
+법이 동의나 거부 선택을 요구하는 지역(예: 유럽, 미국 일부 주)에서는 광고 전에 Google의 동의 화면이 뜹니다. 그 지역에서는 게임 설정에 '개인정보 옵션'이 보이며, 눌러서 광고 동의를 언제든 다시 고르거나, 미국 주 법에 따른 '내 개인정보 판매·공유 거부'를 고를 수 있습니다. 동의하지 않아도 광고는 맞춤형이 아닌 형태로 나올 수 있고, 게임의 다른 기능은 그대로 씁니다. 동의해도 광고는 맞춤형이 아닙니다.
 
 ### 나이 확인
 
-법이 요구하는 경우(예: 미국 텍사스) 게임은 광고나 결제 버튼을 처음 누르기 직전에 Apple의 연령대 확인 기능으로 이용자의 연령대를 묻습니다. 법이 요구하는지는 Apple이 알려 주며, 그 밖의 지역에서는 묻지 않습니다. Apple은 생년월일이 아니라 '13세 미만', '13~17세', '18세 이상' 같은 범위만 알려 주며, 게임은 그 범위만 기기에 저장합니다. 13세 미만이면 광고를 보여 주지 않고, 13~17세이거나 답하지 않으면 추적 허용과 광고 동의를 묻지 않고, 맞춤형이 아닌 광고만 보여 주며 Google에 미성년자 기준으로 처리하도록 알립니다. 기기에는 연령대와 확인한 날짜만 저장하고, 이 제한에만 씁니다. 개발자에게 보내지 않고 iCloud 백업에도 넣지 않습니다.
+법이 요구하는 경우(예: 미국 텍사스) 게임은 광고나 결제 버튼을 처음 누르기 직전에 Apple의 연령대 확인 기능으로 이용자의 연령대를 묻습니다. 법이 요구하는지는 Apple이 알려 주며, 그 밖의 지역에서는 묻지 않습니다. Apple은 생년월일이 아니라 '13세 미만', '13~17세', '18세 이상' 같은 범위만 알려 주며, 게임은 그 범위만 기기에 저장합니다. 13세 미만이면 광고를 보여 주지 않고, 13~17세이거나 답하지 않으면 광고 동의를 묻지 않고 Google에 미성년자 기준으로 처리하도록 알립니다. 기기에는 연령대와 확인한 날짜만 저장하고, 이 제한에만 씁니다. 개발자에게 보내지 않고 iCloud 백업에도 넣지 않습니다.
 
 ### 결제 (Apple)
 
@@ -81,9 +81,9 @@ iPhone이 Game Center에 로그인되어 있으면 게임은 도감 완성 도�
 - 이전되는 국가: 미국 (Google의 데이터 센터가 있는 다른 나라 포함)
 - 이전 항목: 기기 식별자, 광고 데이터, 대략적인 위치(IP 주소), 이용 기록, 진단 정보
 - 이전 시기와 방법: 게임을 열 때와 광고를 불러오고 볼 때, 게임 안의 Google SDK가 암호화된 인터넷 통신으로 보냅니다
-- 이용 목적: 광고 보여 주기와 측정, 부정 방지, 분석, 허용한 경우 맞춤 광고
+- 이용 목적: 광고 보여 주기와 측정, 부정 방지, 분석 (맞춤 광고에는 쓰지 않습니다)
 - 보유 기간: Google의 개인정보처리방침에서 정한 기간
-- 거부 방법과 영향: 광고는 버튼을 눌렀을 때만 나오지만, 바로 보여 줄 수 있도록 팩이 떨어진 화면에서 미리 불러 둡니다. 추적 허용과 개인정보 옵션으로 맞춤 광고를 거부할 수 있습니다. 거부해도 오늘의 팩과 무제한 이용권은 그대로 쓸 수 있고, 광고로 받는 팩만 받지 못할 수 있습니다
+- 거부 방법과 영향: 광고는 버튼을 눌렀을 때만 나오지만, 바로 보여 줄 수 있도록 팩이 떨어진 화면에서 미리 불러 둡니다. 개인정보 옵션으로 광고 동의를 거부할 수 있습니다. 거부해도 오늘의 팩과 무제한 이용권은 그대로 쓸 수 있고, 광고로 받는 팩만 받지 못할 수 있습니다
 
 ### 보관 기간과 파기
 
@@ -96,7 +96,7 @@ iPhone이 Game Center에 로그인되어 있으면 게임은 도감 완성 도�
 
 ### 이용자의 권리와 행사 방법
 
-이용자(만 14세 미만이면 법정대리인)는 개인정보의 열람, 정정, 삭제, 처리 정지, 동의 철회를 요구할 수 있습니다. 아래 문의 주소로 요청하면 10일 안에 답합니다. 개발자는 문의 메일 말고는 이용자의 개인정보를 갖고 있지 않으므로, Google이 처리하는 정보는 Google 개인정보처리방침의 방법으로도 요청할 수 있으며, 필요하면 개발자가 안내합니다. 맞춤 광고는 추적 허용과 개인정보 옵션으로 언제든 거부할 수 있습니다.
+이용자(만 14세 미만이면 법정대리인)는 개인정보의 열람, 정정, 삭제, 처리 정지, 동의 철회를 요구할 수 있습니다. 아래 문의 주소로 요청하면 10일 안에 답합니다. 개발자는 문의 메일 말고는 이용자의 개인정보를 갖고 있지 않으므로, Google이 처리하는 정보는 Google 개인정보처리방침의 방법으로도 요청할 수 있으며, 필요하면 개발자가 안내합니다. 광고 동의는 개인정보 옵션이 보이는 지역에서 언제든 다시 고를 수 있습니다.
 
 ### 아동
 
@@ -130,7 +130,7 @@ summer.riversound@gmail.com
 
 ## English
 
-Effective: 2026-10-28
+Effective: 2026-11-10
 
 **TCG Pack Simulator has no sign-up, and the developer runs no servers.** Your game records stay on your device and in your own iCloud. Google, which shows the rewarded ads, and Apple, which handles payment, process information as described below.
 
@@ -138,7 +138,7 @@ Effective: 2026-10-28
 
 - Game records: stored on your device and, if you use iCloud, backed up to your own iCloud. The developer cannot see them.
 - Ads: Google AdMob collects device identifiers, approximate location, ad and usage data, and diagnostics to show ads.
-- Tracking: Google uses the advertising identifier (IDFA) for personalized ads only if you allow tracking when iOS asks.
+- Tracking: the game does not track you. It never shows iOS's tracking question, does not use the advertising identifier (IDFA), and shows only non-personalized ads.
 - Payment: Apple handles payment for the Unlimited Pass on the App Store. The developer never receives payment details.
 - Microphone: only how hard you blow is worked out on your device; no sound is recorded or sent.
 - Age: only the age range Apple shares is stored on your device, and it is used only to limit ads.
@@ -157,25 +157,25 @@ If your iPhone is signed in to iCloud, the game backs up your records (cards, de
 
 Watch an Ad for Packs on pack select and One More Guess with an Ad on the Mystery Bird show rewarded ads from Google LLC's AdMob. An ad plays only when you tap one of those buttons. Google's SDKs in this game (Google Mobile Ads and the User Messaging Platform) collect the following and send it to Google, as Google discloses:
 
-- Device identifiers: such as the advertising identifier (IDFA, only if you allow tracking)
+- Device identifiers: identifiers of the device used for frequency capping and fraud prevention (never the advertising identifier, IDFA)
 - Advertising data: which ads you saw and tapped
 - Approximate location: country or region estimated from your IP address (no precise location)
 - Product interaction: app launches and interactions such as watching or tapping an ad
 - Diagnostics: app performance and crash data
 
-Google uses this to show and measure ads, prevent fraud and for analytics, and, if you allow tracking, for ads that match your interests. It also uses approximate location and usage data to decide which consent message applies. How Google uses it: Google's Privacy Policy (<https://policies.google.com/privacy>) and <https://policies.google.com/technologies/partner-sites>.
+Google uses this to show and measure ads, prevent fraud and for analytics. The game asks for non-personalized ads in every ad request, so it is not used for ads that match your interests. It also uses approximate location and usage data to decide which consent message applies. How Google uses it: Google's Privacy Policy (<https://policies.google.com/privacy>) and <https://policies.google.com/technologies/partner-sites>.
 
-### The tracking question (ATT)
+### No tracking
 
-Before your first ad, iOS asks whether to allow the app to track your activity across other companies' apps and websites. If you allow it, Google uses the advertising identifier (IDFA) for personalized ads and ad measurement. If you don't, it gets no advertising identifier, and ads may be less relevant. Either way you get the same pack. You can change your choice at any time in iPhone Settings → Privacy & Security → Tracking.
+The game does not track your activity across other companies' apps and websites. So it never shows iOS's tracking question, does not use the advertising identifier (IDFA), and shows no personalized ads: every ad, at any age, is non-personalized.
 
 ### Ad consent and Privacy Options
 
-Where the law requires consent or a choice to opt out (for example Europe or some US states), Google's consent message appears before an ad. There, Privacy Options appears in the game's settings: tap it at any time to change your ad choices, including the "Do Not Sell or Share My Personal Information" choice that US state laws provide. Without consent, ads may still appear in a non-personalized form, and the rest of the game works the same.
+Where the law requires consent or a choice to opt out (for example Europe or some US states), Google's consent message appears before an ad. There, Privacy Options appears in the game's settings: tap it at any time to change your ad choices, including the "Do Not Sell or Share My Personal Information" choice that US state laws provide. Without consent, ads may still appear in a non-personalized form, and the rest of the game works the same. With consent, ads are still non-personalized.
 
 ### Age check
 
-Where the law requires it (for example Texas, USA), the game asks for your age range through Apple's age range feature right before you first tap an ad or purchase button. Apple tells the game whether the law requires it; elsewhere it does not ask. Apple shares only a range such as "under 13", "13–17" or "18 or over", never a birth date, and the game stores only that range on your device. Under 13, the game shows no ads at all; at 13–17, or if you decline to answer, it asks neither the tracking question nor for ad consent, shows only non-personalized ads, and tells Google to treat you as under the age of consent. Only the age range and the day it was checked are stored on your device and used only for this; they are never sent to the developer or included in the iCloud backup.
+Where the law requires it (for example Texas, USA), the game asks for your age range through Apple's age range feature right before you first tap an ad or purchase button. Apple tells the game whether the law requires it; elsewhere it does not ask. Apple shares only a range such as "under 13", "13–17" or "18 or over", never a birth date, and the game stores only that range on your device. Under 13, the game shows no ads at all; at 13–17, or if you decline to answer, it does not ask for ad consent and tells Google to treat you as under the age of consent. Only the age range and the day it was checked are stored on your device and used only for this; they are never sent to the developer or included in the iCloud backup.
 
 ### Payment (Apple)
 
@@ -209,9 +209,9 @@ For ads, the information in "Ads" above is transferred abroad as follows.
 - Country: the United States (and other countries where Google has data centers)
 - Information: device identifiers, advertising data, approximate location (IP address), product interaction, diagnostics
 - When and how: when the game starts and when an ad loads and plays, sent by Google's SDK in the game over encrypted connections
-- Purpose: showing and measuring ads, fraud prevention, analytics, and personalized ads if allowed
+- Purpose: showing and measuring ads, fraud prevention and analytics (never personalized ads)
 - Retention: as set out in Google's Privacy Policy
-- How to refuse, and what happens: an ad only plays when you tap the ad button, though one is loaded ahead once you run out of packs so it can start at once; you can refuse personalized ads with the tracking question and Privacy Options. Refusing never affects Daily Packs or the Unlimited Pass; you may only miss the packs that ads give
+- How to refuse, and what happens: an ad only plays when you tap the ad button, though one is loaded ahead once you run out of packs so it can start at once; you can refuse ad consent with Privacy Options. Refusing never affects Daily Packs or the Unlimited Pass; you may only miss the packs that ads give
 
 ### Retention and deletion
 
@@ -224,11 +224,11 @@ For ads, the information in "Ads" above is transferred abroad as follows.
 
 ### Your rights and how to use them
 
-You (or your parent or guardian) can ask to access, correct or delete your personal information, to stop or limit its use, and to withdraw consent. Email the address below and the developer answers within 10 days. Apart from emails, the developer holds no personal information about you, so requests about what Google processes can also be made through Google's Privacy Policy; the developer will help if needed. You can refuse personalized ads at any time with the tracking question and Privacy Options.
+You (or your parent or guardian) can ask to access, correct or delete your personal information, to stop or limit its use, and to withdraw consent. Email the address below and the developer answers within 10 days. Apart from emails, the developer holds no personal information about you, so requests about what Google processes can also be made through Google's Privacy Policy; the developer will help if needed. Where Privacy Options shows, you can change your ad consent at any time.
 
 ### US state privacy rights
 
-If you live in a US state with a consumer privacy law (such as California), you have the right to know what personal information is collected, to access, correct and delete it, and to opt out of its "sale" or "sharing" for targeted advertising. The developer does not sell personal information for money. Letting Google use information for personalized ads may count as "sharing" under those laws: opt out with Privacy Options in the game's settings or by not allowing tracking in iOS. You can make other requests by email, yourself or through an authorized agent, and appeal any answer by replying to it. Using these rights never changes how the game treats you.
+If you live in a US state with a consumer privacy law (such as California), you have the right to know what personal information is collected, to access, correct and delete it, and to opt out of its "sale" or "sharing" for targeted advertising. The developer does not sell personal information for money. The game shows no personalized ads, so it does not "share" information for targeted advertising; where Privacy Options shows in the game's settings, you can also opt out there. You can make other requests by email, yourself or through an authorized agent, and appeal any answer by replying to it. Using these rights never changes how the game treats you.
 
 ### Children
 
@@ -253,7 +253,7 @@ summer.riversound@gmail.com
 
 ## 日本語
 
-施行日: 2026-10-28
+施行日: 2026-11-10
 
 **神引きシミュレーターにはアカウント登録がなく、開発者が運営するサーバーもありません。** ゲームの記録は利用者の端末と本人のiCloudにだけ保存されます。ただし、リワード広告を表示するGoogleと、決済を処理するAppleは、以下のとおり情報を取り扱います。
 
@@ -261,7 +261,7 @@ summer.riversound@gmail.com
 
 - ゲームの記録: 端末に保存し、iCloudを使っていれば本人のiCloudにバックアップします。開発者は見られません。
 - 広告: Google AdMobが広告を表示するために、端末の識別子、おおよその位置、広告・利用の記録、診断情報を収集します。
-- トラッキング: iOSの「トラッキングの許可」で許可した場合にだけ、Googleが広告識別子（IDFA）をパーソナライズ広告に使います。
+- トラッキング: このゲームはトラッキングを行いません。iOSの「トラッキングの許可」を尋ねず、広告識別子（IDFA）を使わず、パーソナライズされない広告だけを表示します。
 - 決済: 無制限パスの決済はAppleがApp Storeで処理します。開発者は決済情報を受け取りません。
 - マイク: 息の強さだけを端末の中で計算し、音を録音したり送ったりしません。
 - 年齢: Appleが知らせる年齢層だけを端末に保存し、広告を制限するためだけに使います。
@@ -280,25 +280,25 @@ iPhoneがiCloudにサインインしていれば、ゲームの記録（カー�
 
 パック選択の「広告を見てパック開封」となぞの鳥の「広告を見てもう一回」は、Google LLCのAdMobが表示するリワード広告です。広告はそのボタンを押したときにだけ流れます。このゲームに含まれるGoogleのSDK（Google Mobile Ads、User Messaging Platform）は、Googleが公表している内容に従って、次の情報を収集してGoogleに送信します。
 
-- 端末の識別子: 広告識別子（IDFA、トラッキングを許可した場合のみ）などの端末の識別子
+- 端末の識別子: 広告の表示回数の制限と不正の防止に使う端末の識別子（広告識別子IDFAは受け取りません）
 - 広告データ: どの広告を見て、タップしたか
 - おおよその位置: IPアドレスから推定した国・地域（正確な位置は収集しません）
 - 利用の記録: アプリの起動、広告の視聴・タップなどの操作
 - 診断情報: アプリの動作状況、クラッシュの記録
 
-Googleはこれらの情報を、広告の表示と効果測定、不正の防止、分析に使い、トラッキングを許可した場合は興味に合わせた広告にも使います。どの同意画面を出すかを決めるためにも、おおよその位置と利用の記録を使います。Googleによる利用方法は、Googleのプライバシーポリシー（<https://policies.google.com/privacy>）と<https://policies.google.com/technologies/partner-sites>をご覧ください。
+Googleはこれらの情報を、広告の表示と効果測定、不正の防止、分析に使います。ゲームはすべての広告リクエストでパーソナライズされない広告を求めるため、興味に合わせた広告には使われません。どの同意画面を出すかを決めるためにも、おおよその位置と利用の記録を使います。Googleによる利用方法は、Googleのプライバシーポリシー（<https://policies.google.com/privacy>）と<https://policies.google.com/technologies/partner-sites>をご覧ください。
 
-### トラッキングの許可（ATT）
+### トラッキングしません
 
-初めて広告を見る前に、iOSが「他社のAppやWebサイトを横断したアクティビティの追跡」を許可するかを尋ねます。許可すると、Googleが広告識別子（IDFA）をパーソナライズ広告と広告の効果測定に使います。許可しなければ広告識別子は送られず、興味と関係のない広告が出ることがあります。どちらを選んでも、もらえるパックは同じです。選択はiPhoneの設定 → プライバシーとセキュリティ → トラッキングでいつでも変えられます。
+このゲームは、他社のAppやWebサイトを横断して利用者のアクティビティを追跡しません。そのためiOSの「トラッキングの許可」を表示せず、広告識別子（IDFA）を使わず、パーソナライズ広告を表示しません。広告は年齢にかかわらず、すべてパーソナライズされない広告です。
 
 ### 広告の同意とプライバシーオプション
 
-法律が同意やオプトアウトの選択を求める地域（ヨーロッパ、米国の一部の州など）では、広告の前にGoogleの同意画面が表示されます。その地域ではゲームの設定に「プライバシーオプション」が表示され、いつでも広告の同意を選び直したり、米国の州法による「個人情報の販売・共有の拒否」を選んだりできます。同意しなくても広告はパーソナライズされない形で表示されることがあり、ゲームのほかの機能はそのまま使えます。
+法律が同意やオプトアウトの選択を求める地域（ヨーロッパ、米国の一部の州など）では、広告の前にGoogleの同意画面が表示されます。その地域ではゲームの設定に「プライバシーオプション」が表示され、いつでも広告の同意を選び直したり、米国の州法による「個人情報の販売・共有の拒否」を選んだりできます。同意しなくても広告はパーソナライズされない形で表示されることがあり、ゲームのほかの機能はそのまま使えます。同意しても広告はパーソナライズされません。
 
 ### 年齢の確認
 
-法律が求める場合（米国テキサス州など）、ゲームは広告や購入のボタンを初めて押す直前に、Appleの年齢層確認の機能で利用者の年齢層を尋ねます。法律が求めるかどうかはAppleが知らせ、それ以外の地域では尋ねません。Appleが知らせるのは生年月日ではなく「13歳未満」「13〜17歳」「18歳以上」のような範囲だけで、ゲームはその範囲だけを端末に保存します。13歳未満なら広告を一切表示せず、13〜17歳の場合や回答しなかった場合は、トラッキングの許可も広告の同意も尋ねず、パーソナライズされない広告だけを表示し、Googleに未成年として扱うよう伝えます。端末には年齢層と確認した日だけを保存してこの制限にだけ使い、開発者には送らず、iCloudのバックアップにも含めません。
+法律が求める場合（米国テキサス州など）、ゲームは広告や購入のボタンを初めて押す直前に、Appleの年齢層確認の機能で利用者の年齢層を尋ねます。法律が求めるかどうかはAppleが知らせ、それ以外の地域では尋ねません。Appleが知らせるのは生年月日ではなく「13歳未満」「13〜17歳」「18歳以上」のような範囲だけで、ゲームはその範囲だけを端末に保存します。13歳未満なら広告を一切表示せず、13〜17歳の場合や回答しなかった場合は、広告の同意を尋ねず、Googleに未成年として扱うよう伝えます。端末には年齢層と確認した日だけを保存してこの制限にだけ使い、開発者には送らず、iCloudのバックアップにも含めません。
 
 ### 決済（Apple）
 
@@ -334,9 +334,9 @@ iPhoneがGame Centerにサインインしている場合、ゲームは図鑑完
 - 提供先の措置: Googleはプライバシーポリシーと広告のデータ保護条項に基づいて情報を保護しています
 - 提供する情報: 端末の識別子、広告データ、おおよその位置（IPアドレス）、利用の記録、診断情報
 - 時期と方法: ゲームの起動時と広告の読み込み・再生時に、ゲームの中のGoogle SDKが暗号化された通信で送ります
-- 利用目的: 広告の表示と効果測定、不正の防止、分析、許可した場合のパーソナライズ広告
+- 利用目的: 広告の表示と効果測定、不正の防止、分析（パーソナライズ広告には使いません）
 - 保存期間: Googleのプライバシーポリシーで定める期間
-- 拒否の方法と影響: 広告はボタンを押したときだけ表示されますが、すぐ再生できるようにパックがなくなった画面で前もって読み込みます。トラッキングの許可とプライバシーオプションでパーソナライズ広告を拒否できます。拒否しても今日のパックと無制限パスはそのまま使え、広告でもらえるパックをもらえないことがあるだけです
+- 拒否の方法と影響: 広告はボタンを押したときだけ表示されますが、すぐ再生できるようにパックがなくなった画面で前もって読み込みます。プライバシーオプションで広告の同意を拒否できます。拒否しても今日のパックと無制限パスはそのまま使え、広告でもらえるパックをもらえないことがあるだけです
 
 ### 保存期間と削除
 
@@ -349,7 +349,7 @@ iPhoneがGame Centerにサインインしている場合、ゲームは図鑑完
 
 ### 利用者の権利と手続き
 
-利用者（またはその法定代理人）は、個人情報の開示、訂正、削除、利用停止、同意の撤回を求めることができます。下のお問い合わせ先にご連絡いただければ、10日以内にお答えします。開発者はお問い合わせメールのほかに利用者の個人情報を持っていないため、Googleが取り扱う情報についてはGoogleのプライバシーポリシーの方法でも請求でき、必要に応じて開発者がご案内します。パーソナライズ広告は、トラッキングの許可とプライバシーオプションでいつでも拒否できます。開発者の氏名と住所は、お問い合わせいただければ遅滞なくお知らせします。
+利用者（またはその法定代理人）は、個人情報の開示、訂正、削除、利用停止、同意の撤回を求めることができます。下のお問い合わせ先にご連絡いただければ、10日以内にお答えします。開発者はお問い合わせメールのほかに利用者の個人情報を持っていないため、Googleが取り扱う情報についてはGoogleのプライバシーポリシーの方法でも請求でき、必要に応じて開発者がご案内します。広告の同意は、プライバシーオプションが表示される地域でいつでも選び直せます。開発者の氏名と住所は、お問い合わせいただければ遅滞なくお知らせします。
 
 ### 子ども
 
